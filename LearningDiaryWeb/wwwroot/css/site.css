@@ -101,3 +101,8 @@ body {
     display: table;
     clear: both;
 }
+
+.pb-3 {
+    background-color: aliceblue;
+    opacity: 0.9;
+}
