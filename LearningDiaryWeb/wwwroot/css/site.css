@@ -61,7 +61,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-  
+    
     background-image: url('ontime.jpg')
 }
 .footer {
@@ -73,18 +73,16 @@ body {
 }
 
 .text-center {
-
     background-color: aliceblue;
     opacity: 0.9;
-
+   
 }
 
 
 .privacy-text {
-
     background-color: aliceblue;
     opacity: 0.9;
-
+   
 }
 
 /* Create two equal columns that floats next to each other */
@@ -114,4 +112,36 @@ input[type=text], textarea {
 input[type=text]:focus, textarea:focus {
     background-color:lightblue;
     border: 1px solid #ccc;
+}
+
+.some-page-wrapper {
+    margin: 15px;
+    background-color: red;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.blue-column {
+   
+    background-color:lightblue;
+    height: auto;
+    padding: 10px;
+}
+
+.green-column {
+    background-color: lightblue;
+    height: auto;
+    padding: 10px;
 }
