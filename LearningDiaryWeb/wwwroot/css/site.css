@@ -62,7 +62,7 @@ body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
   
-    background-image: url('clocks.jpg')
+    background-image: url('ontime.jpg')
 }
 .footer {
   position: absolute;
@@ -105,4 +105,13 @@ body {
 .pb-3 {
     background-color: aliceblue;
     opacity: 0.9;
+}
+
+input[type=text], textarea {
+    border: 1px solid #ccc;
+}
+
+input[type=text]:focus, textarea:focus {
+    background-color:lightblue;
+    border: 1px solid #ccc;
 }
