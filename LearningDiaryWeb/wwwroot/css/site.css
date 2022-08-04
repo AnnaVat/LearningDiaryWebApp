@@ -85,15 +85,13 @@ body {
    
 }
 
-/* Create two equal columns that floats next to each other */
+
 .column {
-    float: left;
+    float:inside;
     width: 50%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    
 }
-
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
@@ -103,6 +101,8 @@ body {
 .pb-3 {
     background-color: aliceblue;
     opacity: 0.9;
+    width: auto;
+
 }
 
 input[type=text], textarea {
@@ -112,6 +112,7 @@ input[type=text], textarea {
 input[type=text]:focus, textarea:focus {
     background-color:lightblue;
     border: 1px solid #ccc;
+    width: auto;
 }
 
 .some-page-wrapper {
@@ -137,11 +138,35 @@ input[type=text]:focus, textarea:focus {
    
     background-color:lightblue;
     height: auto;
+    width: auto;
     padding: 10px;
 }
 
 .green-column {
     background-color: lightblue;
     height: auto;
+    width: auto;
     padding: 10px;
+}
+
+.main {
+    background-color: aliceblue;
+    opacity: 0.9;
+    width: auto;
+}
+
+.table {
+    table-layout:fixed;
+    width: 100%;
+}
+
+.td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+.th {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
 }

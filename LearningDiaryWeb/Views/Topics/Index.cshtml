@@ -4,13 +4,13 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Create new subject</h1>
 
 
 
 <div class="helpButton">
     <h3>How does this work?</h3>
-    <input type="button" value="Press for help" onclick="myFunction();" />
+    <input type="button" value="Click for help" onclick="myFunction();" />
 
 </div>
 
@@ -21,7 +21,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Title)
+                @Html.DisplayNameFor(model => model.Title) 
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Description)
@@ -44,7 +44,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.InProgress)
             </th>
-            <th></th>
+            <th>Options</th>
         </tr>
     </thead>
     <tbody>
