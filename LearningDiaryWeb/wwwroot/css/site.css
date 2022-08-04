@@ -133,15 +133,16 @@ input[type=text]:focus, textarea:focus {
     flex-basis: 100%;
     flex: 1;
     column-gap: 20px;
+
 }
 
 .blue-column {
-   
-    background-color:lightblue;
+    background-color: lightblue;
     height: auto;
     width: auto;
     padding: 10px;
-    
+    text-align: center;
+   
 }
 
 .green-column {
@@ -149,7 +150,8 @@ input[type=text]:focus, textarea:focus {
     height: auto;
     width: auto;
     padding: 10px;
-    
+    text-align: center;
+   
 }
 
 .main {
@@ -188,6 +190,9 @@ input[type=text]:focus, textarea:focus {
 }
 
 html * {
-    color: #000 !important;
-    font-family: Helvetica !important;
+    font-family: Bierstadt !important;
+}
+
+.h1 {
+    color: #212529;
 }
