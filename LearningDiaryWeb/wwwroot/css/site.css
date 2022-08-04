@@ -124,7 +124,7 @@ input[type=text]:focus, textarea:focus {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: auto;
 }
 
 .column {
@@ -132,6 +132,7 @@ input[type=text]:focus, textarea:focus {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    column-gap: 20px;
 }
 
 .blue-column {
@@ -140,6 +141,7 @@ input[type=text]:focus, textarea:focus {
     height: auto;
     width: auto;
     padding: 10px;
+    
 }
 
 .green-column {
@@ -147,6 +149,7 @@ input[type=text]:focus, textarea:focus {
     height: auto;
     width: auto;
     padding: 10px;
+    
 }
 
 .main {
@@ -169,4 +172,22 @@ input[type=text]:focus, textarea:focus {
     overflow: hidden;
     text-overflow: ellipsis;
     word-wrap: break-word;
+}
+.helpButton {
+    float: inside;
+    padding: 10px;
+   
+    font-size: 20px;
+    
+}
+
+.container {
+    background-color: aliceblue;
+    opacity: 0.9;
+
+}
+
+html * {
+    color: #000 !important;
+    font-family: Helvetica !important;
 }
