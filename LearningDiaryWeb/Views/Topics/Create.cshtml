@@ -47,9 +47,16 @@
                 <span asp-validation-for="CompletionDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="InProgress" class="control-label"></label>
-                <input asp-for="InProgress" class="form-control" />
+
+                <label asp-for="InProgress" class="control-label">Studying still in progress:</label>
+                
                 <span asp-validation-for="InProgress" class="text-danger"></span>
+                <select asp-for="InProgress" class="form-control" name="InProgress">
+                    
+                    <option value="True">Yes</option>
+                    <option value="False">No</option>
+
+                </select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

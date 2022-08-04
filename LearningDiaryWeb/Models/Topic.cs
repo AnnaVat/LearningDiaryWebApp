@@ -18,6 +18,6 @@ namespace LearningDiaryWeb.Models
         [DisplayName("Source")] public string Source { get; set; }
         [DisplayName("Start")] public DateTime? StartLearningDate { get; set; }
         [DisplayName("Finnish")] public DateTime? CompletionDate { get; set; }
-        [DisplayName("Done")] public bool? InProgress { get; set; }
+        [DisplayName("In progress")] public bool? InProgress { get; set; }
     }
 }
